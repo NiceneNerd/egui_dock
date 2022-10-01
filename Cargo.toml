@@ -19,8 +19,8 @@ serde = ["dep:serde", "egui/serde"]
 
 
 [dependencies]
-egui = "0.19"
+egui = { git = "https://github.com/NiceneNerd/egui" }
 serde = { version = "1", optional = true, features = ["derive"] }
 
 [dev-dependencies]
-eframe = "0.19"
+eframe = { git = "https://github.com/NiceneNerd/egui" }
